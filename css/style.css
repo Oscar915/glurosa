@@ -45,6 +45,69 @@ footer{
     width: 100%;
     height: auto;
   }
+
+  .contenedor-cat{
+      margin: 20px auto;
+      width: 98%;
+      height: 900px;
+      flex: content;
+      display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+  }
+
+  .tarjeta{
+    margin: 20px auto;
+    width: 30%;
+    height: 230px;
+    background-color: #F7F7F7;
+    padding: 1px;
+  }
+  .nuevo{
+      width: 50px;
+      height: 50px;
+      border-radius: 60%;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: 11%;
+      background-color: #FFF1E2;
+      -webkit-box-shadow: -2px 7px 17px -6px rgba(0,0,0,0.75);
+      -moz-box-shadow: -2px 7px 17px -6px rgba(0,0,0,0.75);
+      box-shadow: -2px 7px 17px -6px rgba(0,0,0,0.75);
+      position: absolute;
+      
+      
+  }
+
+  #titilo{
+      
+      margin-top: 15px;
+      color: #A64A49 ;
+      font: bold;
+      font-size: 13px;
+      
+  }
+
+
+  .imagen{
+    margin: 15px auto;
+    width: 99%;
+    height: 230px;
+    
+  }
+
+  .icono{
+      width: 100%;
+  }
+.descripcion{
+    margin-top: -35px;
+    text-align: center;
+}
+
+.descripcion>h5{
+   font-size: 20px;
+}
+
   @supports(object-fit: cover){
       .box img{
         height: 100%;
